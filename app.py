@@ -9,7 +9,7 @@ UPLOAD_FOLDER = 'static'
 FLYER_FILENAME = 'flyer.jpg'
 
 users = {
-    "admin": generate_password_hash("tu_contraseña_segura")
+    "admin": generate_password_hash("frondi123")
 }
 
 @auth.verify_password
