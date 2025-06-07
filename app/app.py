@@ -17,3 +17,5 @@ def admin():
             flyer.save(os.path.join(UPLOAD_FOLDER, FLYER_FILENAME))
             return redirect(url_for('index'))
     return render_template('admin.html')
+if __name__ == '__main__':
+    app.run(debug=True)
